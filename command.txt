@@ -1,0 +1,18 @@
+
+99507@yuzhijun MINGW32 ~/Desktop
+$ git config --global user.name "yzj"
+
+99507@yuzhijun MINGW32 ~/Desktop
+$ git config --global user.email "yuzhijun16@126.com"
+
+
+99507@yuzhijun MINGW32 ~/Desktop
+$ cd Git_Study/
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study
+$ pwd
+/c/Users/99507/Desktop/Git_Study
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study
+$ git init
+Initialized empty Git repository in C:/Users/99507/Desktop/Git_Study/.git/
