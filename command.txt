@@ -16,3 +16,62 @@ $ pwd
 99507@yuzhijun MINGW32 ~/Desktop/Git_Study
 $ git init
 Initialized empty Git repository in C:/Users/99507/Desktop/Git_Study/.git/
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ ls
+command.txt
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ git add command.txt
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ git commit -m "wrote a test file"
+[master (root-commit) 1c68bdf] wrote a test file
+ 1 file changed, 18 insertions(+)
+ create mode 100644 command.txt
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ git log
+commit 1c68bdfa02c8834ca5ab2b6a342ad74649040ede (HEAD -> master)
+Author: yzj <yuzhijun16@126.com>
+Date:   Tue Jul 29 16:17:05 2025 +0800
+
+    wrote a test file
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+
+
+$ ssh-keygen -t rsa -C "yuzhijun16@126.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/99507/.ssh/id_rsa): 123456
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in 123456
+Your public key has been saved in 123456.pub
+The key fingerprint is:
+SHA256:NiBrYq3xOiGWT3PT8LYQPxRrM0E/zyFc6aC9AJoCz9Q yuzhijun16@126.com
+The key's randomart image is:
++---[RSA 3072]----+
+|   .  ..   ..    |
+|. . E. oo...     |
+|.+  + o *=o.     |
+| .o+ = X .=..    |
+|  * + O S .o     |
+|.+.O + B o       |
+|..+.+ + o        |
+|  .o   .         |
+|  ..             |
++----[SHA256]-----+
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$
+
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ git remote add origin ilovezard@github.com:yzj/yzj.git
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+$ git remote -v
+origin  ilovezard@github.com:yzj/yzj.git (fetch)
+origin  ilovezard@github.com:yzj/yzj.git (push)
+
+99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
