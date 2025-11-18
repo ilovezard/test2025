@@ -75,3 +75,10 @@ origin  ilovezard@github.com:yzj/yzj.git (fetch)
 origin  ilovezard@github.com:yzj/yzj.git (push)
 
 99507@yuzhijun MINGW32 ~/Desktop/Git_Study (master)
+
+
+
+studay
+
+
+
